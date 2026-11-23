@@ -1,0 +1,21 @@
+let number = number(prompt("enter a number: "));
+    if (number < 0 || number > 100){
+        console.log("invalid number");
+    }
+    else if (number >= 90 && number <= 100){
+        console.log("excellent, keep it up");
+    }
+    else if (number >= 70 && number < 90){
+        console.log("very good, but try hader");
+    }
+    else if (number >= 50 && number < 70){
+        console.log("good,");
+    }
+    else if (number >= 30 && number < 50){
+       console.log("very bad");   
+    }
+    else if (number < 30){
+        { console.log("faild and you must take this cource again dump ass ");
+    }
+
+
