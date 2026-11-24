@@ -3,7 +3,7 @@ let squre = number ** 2;
     if(square && number == 100){
         console.log("the number and its square are equale to hundread:");
     }
-    else if(number && square != 100){
+    else if(number != && square != 100){
         console.log("the number and its square is equal to hundread:");
     }  
     else if(number > 100 && square > 100){

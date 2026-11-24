@@ -1,0 +1,8 @@
+console.log("Number\tSquare\tCube");
+
+for (let number = 0; number <= 10; number++) {
+    let square = number * number;
+    let cube = number ** 3;
+
+    console.log(number + "\t" + square + "\t" + cube);
+}

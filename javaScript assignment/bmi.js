@@ -1,6 +1,8 @@
-let weightInKilograms = 70;
-let heightInMeters = 1.75;
+let weight = number(input("enter your weight: "));
+let height = number(input("enter your height: "));
 
-let BMI = weightInKilograms / (heightInMeters * heightInMeters);
+
+//let BMI = weightInKilograms / (heightInMeters * heightInMeters);
 
 console.log("Your BMI is: " + BMI);
+
